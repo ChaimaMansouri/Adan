@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+
+}
+
+.container {
+   
+    background-image: url(Home.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+}
+.img{
+    background-color: rgba(255, 255, 255, 0.197);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information {
+    margin-right: 90PX;
+    width: 32%;
+    height: 75%;
+    padding: 20px 20PX 30PX;
+    background-color: rgba(0, 0, 0, 0.495);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(254, 253, 253);
+    box-shadow: 0 0 10px rgba(238, 231, 231, 0.5);
+}
+.information .Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(213, 213, 213);
+
+}
+.information .Top h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.information .Top .search{
+    margin-top: -14PX;
+}
+.information .Top .search h1{
+    margin-bottom: 16PX;
+}
+.information .Top .search select{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    padding: 0 10px;
+    background-color: rgba(18, 101, 235, 0.815);
+    color: rgb(255, 255, 255);
+}
+
+.information .Middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.information .Middle .inf1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 10PX;
+    background-color: rgba(40, 97, 241, 0.775);
+    backdrop-filter: blur(100px);
+}
+
+.ayah-container {
+     margin-left: 90px;
+     margin-top: -10PX;
+}
+.ayah-container h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 0 0 14px rgb(0, 0, 0);
+}
+.ayah-container p {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 19px rgb(0, 0, 0);
+
+}
